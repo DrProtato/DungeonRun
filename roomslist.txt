@@ -1,0 +1,10 @@
+1;no;none;3
+2;no;slime;2
+3;none;yes;4
+4;none;no;1
+5;skeleton;no;2
+6;none;no;1
+7;troll;no;5
+8;slime;no;2
+9;none;yes;3
+10;boss;no;0

@@ -1,0 +1,9 @@
+help:displays list of commands.
+open (target):opens specified target.
+look: lists what is in a room
+attack (target):attacks specified target.
+block (time):blocks attacks for specified time.
+break (target):breaks specified target.
+start:starts the game.
+restart:restarts the game.
+exit:exits the game.
