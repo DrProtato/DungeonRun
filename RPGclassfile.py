@@ -45,9 +45,25 @@ class bow:
         return name
 
 class staff:
+    __staffName = ""
     __staffDamageFactor = 1.0
     __staffRangeFactor = 1.0
     __staffDamageType = "magic"
+    __staffDamageFinal = 0.0
+    __staffRangeFinal = 0.0
+
+    def __init__(self, name, damagefactor, rangefactor, damagetype):
+        self.__staffName = name
+        self.__staffDamageFactor = damagefactor
+        self.__staffRangeFactor = rangefactor
+        self.__staffDamageType = damagetype
+
+    def generateStaffDamage(self, damagefactor):
+        damage = math.floor(damagefactor * (roomCounter / (2 + roomCounter / 2)))
+        return damage
+
+    def staffName(self, name):
+        return name
 
 class dust:
     __dustName = ""
